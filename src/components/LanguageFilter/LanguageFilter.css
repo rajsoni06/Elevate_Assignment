@@ -1,0 +1,26 @@
+.language-filter-wrapper {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.lang-filter-options {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.7rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.lang-filter-option {
+  margin: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media screen and (max-width: 900px) {
+  .language-filter-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,91 @@
+.banner-wrapper {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-background-image-wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.banner-background-image {
+  width: 100%;
+  height: 95%;
+}
+
+.overlay-text-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, 0);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  line-height: 2rem;
+}
+
+.intro-btn {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 30%;
+}
+
+.intro-btn:hover {
+  background-color: #f26522;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+  .overlay-text-wrapper {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .overlay-text-wrapper {
+    left: 47%;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .overlay-text-wrapper {
+    font-size: 1.2rem;
+  }
+
+  .intro-btn {
+    font-size: 0.9rem;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .overlay-text-wrapper {
+    left: 50%;
+  }
+}

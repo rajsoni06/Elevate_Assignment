@@ -1,0 +1,20 @@
+.category-filter-wrapper {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.filter-options {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.7rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-option {
+  margin: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+}

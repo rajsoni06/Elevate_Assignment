@@ -50,7 +50,7 @@ Docs Link: [Fake Store API](https://fakestoreapi.com/docs)
 Clone the project
 
 ```bash
-  git clone https://github.com/RakshaPawar108/elevate-frontend-assignment.git
+  git clone https://github.com/rajsoni06/Elevate_Assignment
 ```
 
 Go to the project directory
